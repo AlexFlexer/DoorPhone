@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Домофонщик</string>
+
+    <string name="toolbar_radix">Система счисления: %1$d</string>
+    <string name="body_encode_length">Длина шифрования: %1$d</string>
+    <string name="body_alias">Сглаживание фото</string>
+    <string name="alert_radix">Введите основание системы счисления (максимум 16):</string>
+    <string name="alert_length">Введите длину строки (максимум 256):</string>
+    <string name="alert_encode_length">Введите длину символов зашифрованной строки в битах (максимум 64):</string>
+    <string name="alert_ok">ОК</string>
+    <string name="alert_cancel">Отмена</string>
+    <string name="alert_hint_radix">2..16</string>
+    <string name="alert_hint_length">1..256</string>
+    <string name="alert_hint_encode_length">%1$d..64</string>
+    <string name="alert_bad_data">Недопустимое значение</string>
+
+    <string name="one_more_time_to_exit">Нажмите ещё раз, чтобы выйти</string>
+
+    <string name="enter_num">Введите строку для кодировки</string>
+    <string name="num_encode">Закодировать</string>
+    <string name="length_vs_max_length">%1$d/%2$d</string>
+
+    <string name="result_ready">Готово!</string>
+    <string name="result_saved">Результат сохранен</string>
+
+    <string name="bs_save">Сохранить</string>
+    <string name="bs_share">Поделиться</string>
+    <string name="bs_demo_title">Здесь будет результат работы</string>
+
+    <string name="no_perms">Разрешите доступ к памяти устройства, чтобы Вы могли сохранять результат работы</string>
+    <string name="regain_perms">Разрешить</string>
+
+    <string name="err_saving">Не удалось сохранить фото</string>
+    <string name="err_str_not_binary">Строка не должна быть пустой</string>
+    <string name="no_settings">Невозможно открыть настройки данного приложения</string>
+
+    <string name="err_dial_title">Ошибка</string>
+    <string name="err_dial_ok">ОК</string>
+</resources>

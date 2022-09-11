@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/alert_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/product_sans"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        android:text="@string/alert_radix"/>
+
+    <TextView
+        android:id="@+id/alert_not_acceptable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alert_bad_data"
+        android:textColor="@color/red"
+        android:fontFamily="@font/product_sans" />
+
+    <EditText
+        android:id="@+id/alert_input"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textColorHint="@color/text_gray"
+        android:background="@drawable/background_edittext"
+        android:fontFamily="@font/product_sans"
+        android:maxLength="3"/>
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="@string/alert_ok"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="@string/alert_cancel"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"/>
+
+</LinearLayout>
